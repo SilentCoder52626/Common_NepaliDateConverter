@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿
 
 namespace NepaliDateConverter
 {
     public class DateConverterService : IDateConverterService
     {
-        private DateTime _date;
 
         public DateConverterService()
         {
-            this._date = DateTime.Now;
         }
         public DateTime ToAD(string date)
         {
