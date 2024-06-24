@@ -27,7 +27,7 @@ namespace NepaliDateConverterTest
         }
 
         [Fact]
-        public void Add_ReturnsCorrectSum()
+        public void Add_ReturnsCorrectEnglishDate()
         {
             // Arrange
             string nepaliDate = "2081/03/08";
