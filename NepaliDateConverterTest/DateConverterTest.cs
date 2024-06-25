@@ -38,5 +38,17 @@ namespace NepaliDateConverterTest
             // Assert
             Assert.Equal(expectedDate, result);
         }
+        [Fact]
+        public void Add_ReturnsCorrectNepaliDate()
+        {
+            // Arrange
+            DateTime engDate = new DateTime(2024, 6, 22);
+            string nepaliDate = "2081/03/08";
+            // Act
+            var result = _dateConverter.ToBS(engDate).ToString();
+
+            // Assert
+            Assert.Equal(nepaliDate, result);
+        }
     }
 }
