@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliDateConverter", "NepaliDateConverter\NepaliDateConverter.csproj", "{BA13AA17-214B-4381-933B-F8AD3236BF59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverterTest", "NepaliDateConverterTest\NepaliDateConverterTest.csproj", "{813FF00D-0199-460C-870C-55EC6B52318C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliDateConverterTest", "NepaliDateConverterTest\NepaliDateConverterTest.csproj", "{813FF00D-0199-460C-870C-55EC6B52318C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverterBenchmark", "NepaliDateConverterBenchmark\NepaliDateConverterBenchmark.csproj", "{7BF56D64-D217-430F-AB33-B543F625A92A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{813FF00D-0199-460C-870C-55EC6B52318C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813FF00D-0199-460C-870C-55EC6B52318C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813FF00D-0199-460C-870C-55EC6B52318C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF56D64-D217-430F-AB33-B543F625A92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF56D64-D217-430F-AB33-B543F625A92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF56D64-D217-430F-AB33-B543F625A92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF56D64-D217-430F-AB33-B543F625A92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

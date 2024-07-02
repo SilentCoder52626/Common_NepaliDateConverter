@@ -1,9 +1,4 @@
-﻿
-
-using Microsoft.VisualBasic;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace NepaliDateConverter
+﻿namespace NepaliDateConverter
 {
     public class DateConverterService : IDateConverterService
     {
